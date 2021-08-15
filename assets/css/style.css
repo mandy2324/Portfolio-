@@ -34,7 +34,7 @@ header {
     text-decoration-style: solid;
     font-size: 2rem; 
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 2rem 5rem 2rem 0rem;
+    padding: 1rem 0rem 1rem 54rem;
     justify-content: space-between;
     text-decoration: none;
 
@@ -64,10 +64,10 @@ ul  {
 .Portfolio {
     font-family:'Courier New', Courier, monospace;
     font-size: 4rem;
-   margin-top: 9rem;
-   position: absolute;
-    right: 13rem;
-    padding: 0.5rem;
+    position: absolute;
+    top: 291px;
+    right: 118px;
+  
  }
  .backimg {
     position: relative;
@@ -78,10 +78,10 @@ ul  {
 .about-me {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 2rem;
-    padding-left: 28rem;
+    /* padding-left: 28rem; */
     margin-left: 6rem;
     padding-top: 2rem;
-    padding:2rem 0 0 28rem;
+    /* padding:2rem 0 0 28rem; */
 
 }
 
@@ -109,7 +109,7 @@ h2 {
     padding: 20px;
     padding-top: 6rem;
     float: left;
-    width: 20%;
+    width: 9%;
     height: 100%;
     border-right: 7px solid var( --gray);
     height: 58rem;
@@ -137,9 +137,11 @@ span {
 }
 .images {
     opacity: 0.5;
-    width:100%;
-    height:100%;
-    object-fit: cover;
+    /* width:64%; */
+    /* height:100%; */
+    /* object-fit: cover; */
+    width: 139%;
+    height: 59%;
 }
 /* hover effects on images  */
 img:hover {
@@ -147,18 +149,25 @@ img:hover {
     cursor: pointer;
     }
 .article {
-    margin-left: 34rem;
+    /* margin-left: 34rem; */
     padding: 0rem 2rem 0rem 2rem;
 }
 .imagesecondary  {
     flex-wrap: wrap;
     margin-top: 2%;
     display: flex;
-    width: 100%;
+    /* width: 39rem; */
+    width: 589px;
+    height: 241px;
 }
  .appimg  section {
      position: relative; 
  }
+ .divnav {
+    display: flex;
+    align-items: center;
+
+}
  /* the text inside each picture  */
 .text {
     font-family:'Courier New', Courier, monospace;
@@ -170,14 +179,10 @@ img:hover {
     padding: 1rem;
     bottom:2rem;
 }
-.divnav {
-    display: flex;
-    align-items: center;
 
-}
-   img {
+   /* img {
     max-height: 200px;
-}
+} */
 .article {
     flex-wrap: wrap;
     margin-top: 2%;
@@ -186,7 +191,7 @@ img:hover {
 /* to apply flex properties */
 .flex-container {
     display: flex;
-    padding: 1%;
+    /* padding: 1%; */
 }
 .flex {
     flex: 4;
@@ -195,7 +200,7 @@ img:hover {
 }
 
 .app {
-    flex: 1 0 300px;
+    /* flex: 1 0 300px; */
     text-align: center;
     border-style: solid;
     border-width: 7px;
@@ -220,7 +225,7 @@ h3 {
     padding: 20px;
     padding-top: 6rem;
     float: left;
-    width: 20%;
+    width: 9%;
     height: 100%;
     border-right: 7px solid var( --gray);
     height: 3rem;
