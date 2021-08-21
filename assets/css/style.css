@@ -21,12 +21,16 @@ html {
     color: var(--bgdark);
     padding: 2rem 1rem 0 4rem;
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 header {
     margin: 0rem;
     background-color: var(--bgdark);
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .nav-bar {
@@ -36,7 +40,7 @@ header {
     text-decoration-style: solid;
     font-size: 2rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 0rem 0rem 2rem 59rem;
+    /* padding: 0rem 0rem 2rem 59rem; */
     text-decoration: none;
 }
 
@@ -46,6 +50,13 @@ header {
     border-bottom: 5px solid var(--aqua);
     padding: 0.5rem;
     margin-right: 2rem;
+    /* min-width: 30px; */
+}
+
+li {
+    /* min-width: 30px; */
+    line-height: 2rem;
+    font-size: 2rem;
 }
 
 ul {
@@ -74,6 +85,7 @@ ul {
     position: relative;
     height: 23rem;
     width: 100%;
+    background-image: url("../../images/image1.jfif");
 }
 
 
@@ -121,6 +133,15 @@ h2 {
     font-size: 4rem;
     text-align: right;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* My image */
+
+.myimage {
+    /* width: 2rem;
+    height: 4rem; */
+    height: 100%;
 }
 
 
